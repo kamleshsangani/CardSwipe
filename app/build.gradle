@@ -35,6 +35,6 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
     implementation 'androidx.cardview:cardview:1.0.0'
-    implementation project(':corverflow')
+    implementation project(':coverflow')
     implementation 'androidx.core:core-ktx:1.9.0'
 }

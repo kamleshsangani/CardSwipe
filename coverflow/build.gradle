@@ -21,7 +21,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    namespace 'com.cards.corverflow'
+    namespace 'com.cards.coverflow'
 }
 
 dependencies {
@@ -39,8 +39,8 @@ afterEvaluate {
                 from components.release
 
                 // You can then customize attributes of the publication as shown below.
-                groupId = 'com.cards.corverflow'
-                artifactId = 'cardsCorverFlow'
+                groupId = 'com.cards.coverflow'
+                artifactId = 'cardsCoverFlow'
                 version = '1.0'
             }
             // Creates a Maven publication called “debug”.
@@ -48,8 +48,8 @@ afterEvaluate {
                 // Applies the component for the debug build variant.
                 from components.debug
 
-                groupId = 'com.cards.corverflow'
-                artifactId = 'cardsCorverFlow'
+                groupId = 'com.cards.coverflow'
+                artifactId = 'cardsCoverFlow'
                 version = '1.0'
             }
         }
